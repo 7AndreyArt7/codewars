@@ -3,7 +3,9 @@
 
 function boolToWord( bool ){
     //...
-    return  bool===true? "Yes":"No";
+    return  !bool? "Yes":"No";
 }
 
 boolToWord(false)
+
+console.log( boolToWord(false) );
