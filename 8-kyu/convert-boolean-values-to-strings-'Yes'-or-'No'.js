@@ -3,9 +3,9 @@
 
 function boolToWord( bool ){
     //...
-    return  !bool? "Yes":"No";
+    return  bool? "Yes":"No";
 }
 
 boolToWord(false)
 
-console.log( boolToWord(false) );
+console.log( boolToWord(true) );
